@@ -460,8 +460,8 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "www.sage.com:443,www.giannidelprete.it:443,www.sloomb.com:443,www.trumpinternationalrealty.com:443,www.akasantech.com:443,images.chesscomfiles.com:443,gitlab.com:443,chrono24.com:443,www.speedtest.net:443,www.dbs.com.sg:443,www.leics.police.uk:443,www.shopify.com:443,store.ubi.com:443,www.mlkj888.com:443,cdn.204910.best:443,auto.dolby.dpdns.org:443,serviceshub.samsclub.com:443,mfa.gov.ua:443,help.x.com:443,cloudflare.idc.rocks:443,jobsdb.com:443,bbs.alipansou.com:443,cnllm.com:443,saas.sin.fan:443,www.5h.com:443
-",
+        "www.sage.com:443,www.giannidelprete.it:443,www.sloomb.com:443,www.trumpinternationalrealty.com:443,www.akasantech.com:443,images.chesscomfiles.com:443,gitlab.com:443,chrono24.com:443,www.speedtest.net:443,www.dbs.com.sg:443,www.leics.police.uk:443,www.shopify.com:443,store.ubi.com:443,"
+        "www.mlkj888.com:443,cdn.204910.best:443,auto.dolby.dpdns.org:443,serviceshub.samsclub.com:443,mfa.gov.ua:443,help.x.com:443,cloudflare.idc.rocks:443,jobsdb.com:443,bbs.alipansou.com:443,cnllm.com:443,saas.sin.fan:443,www.5h.com:443",
     ).split(",")
     if h.strip()
 ]
